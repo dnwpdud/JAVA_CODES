@@ -1,0 +1,29 @@
+package edu.java.homework;
+
+import java.util.Scanner;
+
+public class 우제영_HW1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 'A'; i <= 'Z'; i++) {// A부터 Z까지 출력하는 반복문
+			System.out.println((char)i);
+		}
+		
+		double a = Math.random();
+		System.out.println(a);
+		
+		int n = sc.nextInt();
+		for(int i = 1; i <= n; i++) {
+			if(i % n == 0) {
+				System.out.println(i * (-1));
+			}else {
+				System.out.println(i);
+			}
+		}
+		
+	}// end main()
+
+}// end 우제영_HW1
+

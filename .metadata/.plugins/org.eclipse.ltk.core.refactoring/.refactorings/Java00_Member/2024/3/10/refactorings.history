@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;edu.java.member06.OracleQuery&apos; to &apos;OracleMemberQuery&apos;&#x0D;&#x0A;- Original project: &apos;Java00_Member&apos;&#x0D;&#x0A;- Original element: &apos;edu.java.member06.OracleQuery&apos;&#x0D;&#x0A;- Renamed element: &apos;edu.java.member06.OracleMemberQuery&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OracleQuery&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;edu.java.member06{OracleQuery.java[OracleQuery" matchStrategy="1" name="OracleMemberQuery" qualified="false" references="true" similarDeclarations="false" stamp="1709709555229" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+
+void java.io.PrintStream.println()
+
+
+Terminates the current line by writing the line separator string. Theline separator string is defined by the system property line.separator, and is not necessarily a single newlinecharacter ('\n').

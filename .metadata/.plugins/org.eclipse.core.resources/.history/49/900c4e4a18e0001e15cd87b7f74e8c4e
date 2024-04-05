@@ -1,0 +1,5 @@
+package edu.java.sideproject;
+
+public interface LoginDAO {
+	public abstract LoginVO selectLogin(int no ,String id, String pw);
+}// end LoginDAO

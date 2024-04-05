@@ -1,0 +1,8 @@
+package edu.java.sideproject;
+
+public class LoginVO {
+	int Index;
+	String Id;
+	String Password;
+	
+}// end LoginVO

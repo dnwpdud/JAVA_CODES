@@ -1,0 +1,7 @@
+package edu.java.sideproject;
+
+public interface LoginDAO {
+	public abstract LoginVO selectLoginManager(int no ,String id, String pw);
+	
+	public abstract LoginVO selectLoginUser(int no ,String id, String pw);
+}// end LoginDAO

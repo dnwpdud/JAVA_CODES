@@ -1,0 +1,23 @@
+package edu.java.sideproject;
+
+public class EquipmentInformVO {
+//	EQUIPMENT_INDEX(NUMBER) 설비 인덱스 - PK
+//	EQUIPMENT_NAME(VARCHAR2) 설비 이름 NOT NULL UNIQUE
+//	EQUIPMENT_TYPE(VARCHAR2) 설비 종류 NOT NULL 
+//	PART_USE(NUMBER) 부품 사용회수(가스회수와 같은 개념) 
+//	PART_RATING(VARCHAR2) : 부품 등급 - NOT NULL (사용회수에 따라 달라짐
+//	PART_TIME(TIMESTAMP) : 부품이 들어간 시간 NOT NULL 
+//	EQUIPMENT_LOCATION(VARCHAR2) 설비 위치 NOT NULL 
+//	USER_ID(VARCHAR2) 사용자 아이디(외래키) NOT NULL UNIQUE
+//	MANAGER_ID(VARCHAR2)관리자 아이디(외래키) NOT NULL UNIQUE
+	int equipmentIndex;
+	String equipmentName;
+	String equipmentType;
+	int partUse;
+	String partRating;
+	String partOutTime;
+	String equipmentLocation;
+	String UserId;
+	String managerId;
+	
+}// end EquipmentInformVO

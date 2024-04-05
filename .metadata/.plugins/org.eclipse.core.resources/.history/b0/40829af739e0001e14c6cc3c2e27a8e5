@@ -1,0 +1,111 @@
+package edu.java.sideproject;
+
+import java.util.Date;
+
+public class PartManagementVO {
+//	컬럼
+//	PART_INDEX(NUMBER) - 부품 인덱스 - PK
+//	PART_NO(NUMBER) : 부품 번호 - 
+//	PART_NAME(VARCHAR2) : 부품 이름 - NOT NULL
+//	PART_CATEGORY(VARCHAR2) : 부품 종류 - NOT NULL
+//	PART_RATING(VARCHAR2) : 부품 등급 - NOT NULL 
+//	OUT_TIME(TIMESTAMP) : 나간 시간 
+//	MANUFACTURING_TIME(VARCHAR2) : 제조일자 
+//	USER_INDEX(VARCHAR2) : 사용자 번호 - FK
+//	MANAGER_INDEX(VARCHAR2)- 관리자 번호 - FK
+	// 멤버 변수
+	private int partIndex;
+	private String partNo;
+	private String partName;
+	private String partCategory;
+	private String partRating;
+	private Date outTime;
+	private String partmanufacturingTime;
+	private int userIndex;
+	// 기본 생성자
+	public PartManagementVO() {}
+	// 매개변수 생성자
+	public PartManagementVO(int partIndex, String partNo, String partName, String partCategory, String partRating,
+			Date outTime, String partmanufacturingTime, int userIndex, int managerIndex) {
+		this.partIndex = partIndex;
+		this.partNo = partNo;
+		this.partName = partName;
+		this.partCategory = partCategory;
+		this.partRating = partRating;
+		this.outTime = outTime;
+		this.partmanufacturingTime = partmanufacturingTime;
+		this.userIndex = userIndex;
+		this.managerIndex = managerIndex;
+	}
+	// get/set
+	public int getPartIndex() {
+		return partIndex;
+	}
+	public void setPartIndex(int partIndex) {
+		this.partIndex = partIndex;
+	}
+	public String getPartNo() {
+		return partNo;
+	}
+	public void setPartNo(String partNo) {
+		this.partNo = partNo;
+	}
+	public String getPartName() {
+		return partName;
+	}
+	public void setPartName(String partName) {
+		this.partName = partName;
+	}
+	public String getPartCategory() {
+		return partCategory;
+	}
+	public void setPartCategory(String partCategory) {
+		this.partCategory = partCategory;
+	}
+	public String getPartRating() {
+		return partRating;
+	}
+	public void setPartRating(String partRating) {
+		this.partRating = partRating;
+	}
+	public Date getOutTime() {
+		return outTime;
+	}
+	public void setOutTime(Date outTime) {
+		this.outTime = outTime;
+	}
+	public String getPartmanufacturingTime() {
+		return partmanufacturingTime;
+	}
+	public void setPartmanufacturingTime(String partmanufacturingTime) {
+		this.partmanufacturingTime = partmanufacturingTime;
+	}
+	public int getUserIndex() {
+		return userIndex;
+	}
+	public void setUserIndex(int userIndex) {
+		this.userIndex = userIndex;
+	}
+	public int getManagerIndex() {
+		return managerIndex;
+	}
+	public void setManagerIndex(int managerIndex) {
+		this.managerIndex = managerIndex;
+	}
+	
+	// toString 
+	@Override
+	public String toString() {
+		return "PartManagementVO [partIndex=" + partIndex + ", partNo=" + partNo + ", partName=" + partName
+				+ ", partCategory=" + partCategory + ", partRating=" + partRating + ", outTime=" + outTime
+				+ ", partmanufacturingTime=" + partmanufacturingTime + ", userIndex=" + userIndex + ", managerIndex="
+				+ managerIndex + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
+}// end PartManagementVO

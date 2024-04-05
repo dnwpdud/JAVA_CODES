@@ -1,0 +1,16 @@
+package edu.java.homework;
+
+public class 우제영_HW1 {
+
+	public static void main(String[] args) {
+		for(int i = 'A'; i <= 'Z'; i++) {// A부터 Z까지 출력하는 반복문
+			System.out.println((char)i);
+		}
+		
+		double a = Math.random(45);
+		System.out.println(a);
+		
+	}// end main()
+
+}// end 우제영_HW1
+

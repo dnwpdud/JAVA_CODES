@@ -1,0 +1,18 @@
+package edu.java.sideproject;
+
+public interface EquipmentInformOracle {
+	// 2. DB완 연동하기 위해 필요한 상수들을 정의
+	public static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";// 접속할 오라클 DB 경로
+	public static final String USER = "scott";
+	public static final String PASSWORD = "tiger";
+	
+	public static final String EQUIPMENT_INFOMR_TABLE_NAME = "EX_EQUIPMENT_INFOMR";
+	public static final String COL_EQUIPMENT_INDEX = "PART_INDEX";
+	public static final String COL_PART_NO = "PART_NO";
+	public static final String COL_PART_NAME = "PART_NAME";
+	public static final String COL_PART_CATEGORY = "PART_CATEGORY";
+	public static final String COL_PART_RATING = "PART_RATING";
+	public static final String COL_OUT_TIME = "OUT_TIME";
+	public static final String COL_USER_INDEX = "USER_INDEX";
+	public static final String COL_MANAGER_INDEX = "MANAGER_INDEX";
+}// end EquipmentInformOracle

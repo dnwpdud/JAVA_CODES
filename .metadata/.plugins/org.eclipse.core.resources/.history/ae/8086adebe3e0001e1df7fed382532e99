@@ -1,0 +1,9 @@
+package edu.java.sideproject;
+
+public interface EquipmentInformOracle {
+	// 2. DB완 연동하기 위해 필요한 상수들을 정의
+	public static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";// 접속할 오라클 DB 경로
+	public static final String USER = "scott";
+	public static final String PASSWORD = "tiger";
+
+}// end EquipmentInformOracle

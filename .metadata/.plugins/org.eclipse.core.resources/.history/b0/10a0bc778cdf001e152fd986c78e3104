@@ -1,0 +1,10 @@
+package edu.java.sideproject;
+
+public class LoginPaneVO {
+	int managerIndex;
+	String managerId;
+	String managerPassword;
+	int userIndex;
+	String userId;
+	String userPassword;
+}// end LoginPaneVO

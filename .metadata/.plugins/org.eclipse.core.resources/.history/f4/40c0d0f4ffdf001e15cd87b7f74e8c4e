@@ -1,0 +1,5 @@
+package edu.java.sideproject;
+
+public interface LoginDAO {
+	public abstract int insert(LoginDAOVO vo);
+}

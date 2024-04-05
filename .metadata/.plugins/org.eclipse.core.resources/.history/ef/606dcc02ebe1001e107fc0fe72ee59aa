@@ -1,0 +1,26 @@
+package edu.java.sideproject;
+
+import java.util.Date;
+
+public class PartManagementVO {
+//	컬럼
+//	PART_INDEX(NUMBER) - 부품 인덱스 - PK
+//	PART_NO(NUMBER) : 부품 번호 - 
+//	PART_NAME(VARCHAR2) : 부품 이름 - NOT NULL
+//	PART_CATEGORY(VARCHAR2) : 부품 종류 - NOT NULL
+//	PART_RATING(VARCHAR2) : 부품 등급 - NOT NULL 
+//	OUT_TIME(TIMESTAMP) : 나간 시간 
+//	MANUFACTURING_TIME(VARCHAR2) : 제조일자 
+//	USER_INDEX(VARCHAR2) : 사용자 번호 - FK
+//	MANAGER_INDEX(VARCHAR2)- 관리자 번호 - FK
+	// 멤버 변수
+	private String partType;
+	private String partNo;
+	private String partName;
+	private String partRating;
+	private Date manufacturing;
+	private String managerIndex;
+	int String partUse;
+	
+	
+}// end PartManagementVO
